@@ -1,0 +1,74 @@
+--- !ruby/object:Gem::Specification 
+name: nate63179-icontact
+version: !ruby/object:Gem::Version 
+  version: 0.1.0
+platform: ruby
+authors: 
+- Nate Miller
+autorequire: 
+bindir: bin
+cert_chain: []
+
+date: 2008-12-10 00:00:00 -08:00
+default_executable: 
+dependencies: 
+- !ruby/object:Gem::Dependency 
+  name: facets
+  type: :runtime
+  version_requirement: 
+  version_requirements: !ruby/object:Gem::Requirement 
+    requirements: 
+    - - ">="
+      - !ruby/object:Gem::Version 
+        version: "0"
+    version: 
+description: Interact with the iContact email subscription service.
+email: nate@urbaninfluence.com
+executables: []
+
+extensions: []
+
+extra_rdoc_files: 
+- lib/icontact.rb
+- README.rdoc
+files: 
+- lib/icontact.rb
+- Rakefile
+- README.rdoc
+- Manifest
+- icontact.gemspec
+has_rdoc: true
+homepage: http://projects.urbaninfluence.com/gems
+licenses: []
+
+post_install_message: 
+rdoc_options: 
+- --line-numbers
+- --inline-source
+- --title
+- Icontact
+- --main
+- README
+require_paths: 
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      version: "0"
+  version: 
+required_rubygems_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      version: "1.2"
+  version: 
+requirements: []
+
+rubyforge_project: icontact
+rubygems_version: 1.3.5
+signing_key: 
+specification_version: 2
+summary: Interact with the iContact email subscription service.
+test_files: []
+
